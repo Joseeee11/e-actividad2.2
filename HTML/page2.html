@@ -1,26 +1,326 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+<head><!-- head=cabeza ; rovee información general (metadatos) acerca del documento-->
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 2</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- meta=metadatos; define los datos o informacion sobre los datos. Los atributos name=nombre especifico del metadato. content= valor de este atributo; en este caso configuracion del escalado predetermindado del sitio "initial-scale=1.0" un ancho total al ancho del dispositivo "width=device-width" -->
+
+    <title>Aorus RTX 3070 Master</title> <!--tittle=titulo; define el título del documento que se muestra en la pestaña de la pagina dentro del navegador-->
+
+    <link rel="icon" href="https://github.com/Joseeee11/e-actividad2.2/blob/main/IMG/_3a2185dd-6acb-40d0-80b8-1de89aad8ead.png?raw=true" type="image/png"> <!--link indica las relaciones entre este documento y un recurso externo, rel=relacion; es el que enlaza, describe la relación que mantiene el documento de destino con el documento presente, en este caso un icono. href=hyper reference; enlace de referencia en este caso de la imagen . type; tipo de recurso al que se vincula-->
+
+    <style> /*estilos css colocados aqui momentaneamente*/
+        table , td , tr, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 3px;
+        }
+        fieldset {
+            width: 200px;
+        }
+    </style>
+
 </head>
 <body>
+
     <header>
-        <h1></h1>
-        <nav>
+        <img src="/IMG/icono2.png" alt="Tienda CyberTech" title="CyberTech" width="60px" height="50px"> <!--SRC=fuente de la imagen image source ; ruta a la imagen; ALT= texto alternativo ; contiene una descripción de texto de la imagen; tittle titulo de la imagen-->
+        <h1>CyberTech</h1>
+        <nav>  <!--nav=navegacion; representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya se dentro del mismo documento o a otros-->
+            <ul>
+                <li> <a href="#">navegación</a> </li>
 
+            </ul>
         </nav>
-
     </header>
+    
+    
     <main>
 
+        <article>
 
+            <section>
+                <h1>Aorus RTX 3070 Master</h1> <!--heading nivel 1-->
+                <p>sección de <strong>Tarjetas Gráficas</strong></p>  <!--fuerte=strong; marcar con especial énfasis las partes más importantes de un texto, resaltando que este componente se incluye como "tarjeta grafica"-->
+
+                <figure> <!--figure=figura; elemento representa y agrupa contenido autónomo, con su título asociado, en este caso la imagen con leyenda de esta tarjeta gráfica-->
+                    <img src="https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Aimg.computerunivers.net%2Fimages%2F1000%2F9081980154F78C150261437A8F6F6657.jpg&feedId=26619&k=50a79cb3b1dceeec28329cdb61c3b3ffa31fae52" alt="Tarjeta Gráfica. Aorus RTX 3070 Master">
+                    <figcaption>Aorus RTX 3070 Master</figcaption> <!--figcaption= leyenda de figura; representa un subtítulo o leyenda asociado al contenido del figure-->
+                </figure>
+
+                <p>Precio: <b>400$</b></p>  <!-- b=bold negrita; utilizarse para enfatizar o llamar la atención sobre una parte del texto -->
+                <p>El <b>Aorus RTX 3070 Master</b> posee una memoria de 8G y ancho de banda de memoria de 448 GB/s tiene 5888 núcleos CUDA®, núcleos de trazado de rayos de segunda generación y núcleos tensores de tercera generación que funcionan en paralelo. Es la solución más adecuada para quienes juegan, renderizan y desarrollan tecnología de inteligencia artificial.</p>
+
+            </section>
+
+            <section>
+
+                <h2>Detalles del Aorus RTX 3070 Master</h2>
+
+                <p>Información del Modelo:</p>
+                <dl>                     <!--dl = Lista descriptiva; representa una lista de descripción incluye una lista de grupos de términos y descripciones-->
+                    <dt>Productor</dt>   <!--dt = termino de descripción; define un término en una lista de definición-->
+                    <dd>Gigabyte</dd>    <!--dd = Detalles de descripción; proporciona la definición u otro texto relacionado asociado con el término especificado-->
+
+                    <dt><abbr title="Número de Pieza del Fabricante">MPN</abbr></dt> <!--abbr=abbreviation; representa una abreviación o acrónimo; el atributo "title" (totalmente semantico) describe la abreviatura-->
+                    <dd>GV-N3070AORUS M-8GD</dd>
+
+                    <dt>EAN</dt>
+                    <dd>4719331307844</dd>
+
+                    <dt><abbr title="Potencia de Diseño Térmico">TCP</abbr></dt>
+                    <dd>220 W</dd>
+                </dl>
+
+                <p>Dimensiones:</p>
+                <dl>
+                    <dt>Longitud</dt>
+                    <dd>290 mm</dd>
+
+                    <dt>Slots</dt>
+                    <dd>3.0</dd>
+
+                    <dt>Conectores de 8 PIN</dt>
+                    <dd>2</dd>
+
+                    <dt>Conectores de 6 PIN</dt>
+                    <dd>0</dd>
+                </dl>
+                
+                <p>Conectores de Pantalla:</p>
+                <dl>
+                    <dt><abbr title="High-Definition Multimedia Interface">HDMI</abbr></dt>
+                    <dd>3</dd>
+
+                    <dt>DisplayPort</dt>
+                    <dd>3</dd>
+
+                    <dt><abbr title="Interfaz Visual Digital">DVI</abbr></dt>
+                    <dd>0</dd>
+
+                    <dt><abbr title="Matriz de Gráficos de Vídeo">VGA</abbr></dt>
+                    <dd>0</dd>
+                </dl>
+
+                <p>Rendimiento:</p>
+                <dl>
+                    <dt>Boots Clock</dt>
+                    <dd>1845 MHz</dd>
+
+                    <dt>Memory Clock</dt>
+                    <dd>14000 MHz</dd>
+
+                    <dt><abbr title="Memoria Gráfica de Acceso Aleatorio">Vram</abbr></dt>
+                    <dd>8 GB</dd>
+                </dl>
+            </section>
+
+        </article>
+
+        <section>
+            <h2>¿Ya la tienes? Comparte tu opinión</h2>
+            <form action="" method="POST">
+
+                <div>
+                    <label for="comentario">Comenta tu opinión:</label>  <!--label=etiqueta; utilizada para asociar una descripción con un elemento de formulario específico. El atributo FOR especifica el id del elemento de formulario al cual se está asociando la etiqueta-->
+
+                    <input type="text" id="comentario" name="comentario" required maxlength="80" placeholder="escribe lo que opinas" />   <!--input= de entrada; se usa para crear controles interactivos para formularios para recibir datos del usuario-->
+                </div>
+
+                <fieldset> <!--fileset=grupo de campos; permite organizar en grupos los campos de un formulario-->
+
+                    <legend>Rendimiento:</legend> <!--legend=leyenda; crea un título para un grupo los campos fieldset de un formulario-->
+
+                    <div>
+                        <input type="radio" id="1stars" name="rendimiento" value="1"> <!--type: radio; colecciones de botones de opción que describen un conjunto de opciones relacionadas. Solo se puede seleccionar un boton de opcion-->
+                        <label for="1stars">1</label>
+
+                        <input type="radio" id="2stars" name="rendimiento" value="2">
+                        <label for="2stars">2</label>
+
+                        <input type="radio" id="3stars" name="rendimiento" value="3">
+                        <label for="3stars">3</label>
+
+                        <input type="radio" id="4stars" name="rendimiento" value="4">
+                        <label for="4stars">4</label>
+
+                        <input type="radio" id="5stars" name="rendimiento" value="5">
+                        <label for="5stars">5</label>
+                    </div>
+
+                </fieldset>
+                <fieldset> 
+
+                    <legend>Procesamiento:</legend>
+                    <div>
+                        <input type="radio" id="1stars" name="procesamiento" value="1">
+                        <label for="1stars">1</label>
+
+                        <input type="radio" id="2stars" name="procesamiento" value="2">
+                        <label for="2stars">2</label>
+
+                        <input type="radio" id="3stars" name="procesamiento" value="3">
+                        <label for="3stars">3</label>
+
+                        <input type="radio" id="4stars" name="procesamiento" value="4">
+                        <label for="4stars">4</label>
+
+                        <input type="radio" id="5stars" name="procesamiento" value="5">
+                        <label for="5stars">5</label>
+                    </div>
+
+                </fieldset>
+                <fieldset> 
+
+                    <legend>Almacenamiento:</legend>
+                    <div>
+                        <input type="radio" id="1stars" name="almacenamiento" value="1">
+                        <label for="1stars">1</label>
+
+                        <input type="radio" id="2stars" name="almacenamiento" value="2">
+                        <label for="2stars">2</label>
+
+                        <input type="radio" id="3stars" name="almacenamiento" value="3">
+                        <label for="3stars">3</label>
+
+                        <input type="radio" id="4stars" name="almacenamiento" value="4">
+                        <label for="4stars">4</label>
+
+                        <input type="radio" id="5stars" name="almacenamiento" value="5">
+                        <label for="5stars">5</label>
+                    </div>
+
+                </fieldset>
+                <fieldset> 
+
+                    <legend>Calidad-Precio:</legend>
+                    <div>
+                        <input type="radio" id="1stars" name="calidadprecio" value="1">
+                        <label for="1stars">1</label>
+
+                        <input type="radio" id="2stars" name="calidadprecio" value="2">
+                        <label for="2stars">2</label>
+
+                        <input type="radio" id="3stars" name="calidadprecio" value="3">
+                        <label for="3stars">3</label>
+
+                        <input type="radio" id="4stars" name="calidadprecio" value="4">
+                        <label for="4stars">4</label>
+
+                        <input type="radio" id="5stars" name="calidadprecio" value="5">
+                        <label for="5stars">5</label>
+                    </div>
+
+                </fieldset>
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </section>
+
+        <section>
+            <h2>¿Aún no te decides cuál comprar? Comparalos</h2>
+
+            <form action="" method="post">  <!--action indica la página a la que se envían los datos del formulario; method método HTTP que el navegador usa para enviar el formulario, en este caso empleariamos POST porque son enviados al servidor-->
+                
+                <label for="comparar"><b>Aorus RTX 3070 Master</b> VS</label>
+
+                <select name="comparaciones" id="comparar">  <!--select=seleccionar; muestra un menú de opciones-->
+                    
+                    <option value="">Elegir componente</option> <!--option=opcion; son las opciones contenidas en el menú; value=valor; es el valor que sera enviado del formulario-->
+                    <option value="ASUS_GeForceRTX_3050_Dual">ASUS GeForce RTX 3050 Dual</option>
+                    <option value="ASUS_GeForce_RTX_3060_Dual_LHR">ASUS GeForce RTX 3060 Dual LHR</option>
+                    <option value="ASRock_Radeon_RX_7600_Steel_Legend_8GO">ASRock Radeon RX 7600 Steel Legend 8GO</option>
+                    <option value="ASRock_Radeon_RX_7700_XT_Challenger_12GO">ASRock Radeon RX 7700 XT Challenger 12GO</option>
+                    <option value="GIGABYTE_Aorus_Radeon_RX_6700_XT_Elite">GIGABYTE Aorus Radeon RX 6700 XT Elite</option>
+                    <option value="GIGABYTE_GeForce_RTX_3060_Elite">GIGABYTE GeForce RTX 3060 Elite</option>
+                    <option value="EVGA_GeForce_RTX_3080_XC3_Gaming">EVGA GeForce RTX 3080 XC3 Gaming</option>
+                    <option value="EVGA_GeForce_RTX_3080_Ti_XC3_Ultra_Gaming">EVGA GeForce RTX 3080 Ti XC3 Ultra Gaming</option>
+                
+                </select>
+
+                <button type="submit">Submit</button> <!--submit=entregar; boton que envia formulario-->
+
+            </form>
+
+            <article>
+
+                <h3><strong>Aorus RTX 3070 Master</strong> VS <strong>GIGABYTE GeForce RTX 3060 Elite</strong> </h3>
+
+                <table>   <!--datos que queremos tabular compuesta de filas y columnas-->
+
+                    <caption>Tabla Comparativa</caption> <!--Es el encargado de darle un título descriptivo a las tablas-->
+
+                    <thead>  <!--thead=cabeza de tabla;  indica un conjunto de filas que definen el encabezado de las columnas de la tabla-->
+                        <tr>  <!--fila de tabla=table row define una fila de celdas en una tabla-->
+                            <th>&nbsp;</th>
+                            <th>Aorus RTX 3070 Master</th>  <!--define una celda como encabezado de un grupo de celdas en una tabla-->
+                            <th>GIGABYTE GeForce RTX 3060 Elite</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>  <!--tbody=cuerpo de tabla; agrupa un conjunto de filas de la tabla -->
+                        <tr>
+                            <th>Longitud</th> 
+                            <td>290 mm</td>  <!--Celda de tabla=td se utiliza para crear una celda de datos en una fila-->
+                            <td>296 mm</td>
+                        </tr>
+                        <tr>
+                            <th>Slots</th> 
+                            <td>3.0</td>
+                            <td>2.75</td>
+                        </tr>
+                        <tr>
+                            <th><abbr title="High-Definition Multimedia Interface">HDMI</abbr></th> 
+                            <td>3</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <th><abbr title="Matriz de Gráficos de Vídeo">VGA</abbr></th> 
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr> 
+                            <th><abbr title="Memoria Gráfica de Acceso Aleatorio">Vram</abbr></th>
+                            <td>8 GB</td>
+                            <td>12 GB</td>
+                        </tr>
+                        <tr> 
+                            <th><abbr title="Potencia de Diseño Térmico">TCP</abbr></th>
+                            <td>220 W</td>
+                            <td>170 W</td>
+                        </tr>
+                        <tr>
+                            <th>Boots Clock</th> 
+                            <td>1845 MHz</td>
+                            <td>1867 MHz</td>
+                        </tr>
+                        <tr>
+                            <th>Memory Clock</th> 
+                            <td>14000 MHz</td>
+                            <td>7500 MHz</td>
+                        </tr>
+                        <tr> 
+                            <th>Precio</th>
+                            <td>400$</td>
+                            <td>200$</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </article>
+
+        </section>
+  
     </main>
-    <footer>
-        <nav>
 
-        </nav>
+
+
+    <footer>
+        
     </footer>
 </body>
 </html>
