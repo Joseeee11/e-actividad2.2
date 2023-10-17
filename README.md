@@ -7,6 +7,7 @@
 </ul>
 <br>
 <h2>Introducción</h2>
+<p>link del video: https://youtu.be/Bm38DEO3kUY</p>
 <p>
 Nuestro proyecto tiene como objetivo principal mostrar una vista de la estructura base en lenguaje HTML <i>(HyperText Markup Language)</i>de la aplicación a crear, la cual, consiste en una tienda online de componentes eléctricos para computadoras, donde se le brinde al usuario una comodidad de compra completamente segura, junto con un aporte de información esencial de cada componente. De igual forma, el programa permitirá que el usuario incluya sus reseñas, y pueda comparar determinados componentes con otros modelos, para así aportar una mayor seguridad de compra.
 <br>
